@@ -44,7 +44,7 @@
 
     .img-container img {
         display: block;
-        -webkit-mask-image: radial-gradient(transparent, black 10%, rgba(0, 0, 0, 0.5));
+        -webkit-mask-image: radial-gradient(transparent, black 10%x, rgba(0, 0, 0, 0.5));
         mask-image: repeating-linear-gradient(transparent, black 10%, rgba(0, 0, 0, 0.5));
     }
 

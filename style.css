@@ -48,7 +48,7 @@
 
     .img-container img {
         display: block;
-        width: 100vw;
+        width: 100%;
         height: auto;
         mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
         -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width: 440px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #7e2c17;
+        background-repeat: no-repeat;
+    }
+
+    .casal {
+        position: relative;
+    }
+
+    .nomeCasal {
+        position: absolute;
+        font-family: "Miss Fajardose", cursive;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 4rem;
+        z-index: 2;
+        padding-top: 10px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 300px;
+        font-weight: 400;
+
+    }
+
+    .img-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .flores {
+        position: absolute;
+        top: 0;
+        height: 100vw;
+        width: 100%;
+    }
+
+    .img-container img {
+        display: block;
+        width: 100%;
+        height: auto;
+        mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    }
+
+
+    .versiculo {
+        /* padding-top: 2%; */
+        position: absolute;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .fotoCasal {
+        width: 100vw;
+        height: 100%;
+    }
+
+}

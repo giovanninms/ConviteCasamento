@@ -9,13 +9,16 @@
 @media(max-width: 440px) {
     body {
         width: 100vw;
-        height: 100vh;
+        height: 2000px;
         background-color: #7e2c17;
         background-repeat: no-repeat;
     }
 
     .casal {
         position: relative;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .nomeCasal {
@@ -46,7 +49,7 @@
         width: 100%;
     }
 
-    .img-container img {
+    .img-container {
         display: block;
         width: 100%;
         height: auto;
@@ -56,8 +59,7 @@
 
 
     .versiculo {
-        /* padding-top: 2%; */
-        position: absolute;
+        padding-top: 8%;
         font-family: "Dancing Script", cursive;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -68,7 +70,24 @@
 
     .fotoCasal {
         width: 100vw;
-        height: 100%;
+        height: auto;
+    }
+
+    .buttonSeta {
+        position: absolute;
+        background-color: #577e1700;
+        border: none;
+        height: 10px;
+        width: 200px;
+    }
+
+    .imgSeta {
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%);
+        height: 30px;
+        width: 100px;
     }
 
 }

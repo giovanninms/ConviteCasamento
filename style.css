@@ -67,7 +67,7 @@
 
     .imgSeta {
         position: absolute;
-        top: 100%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%);
         height: 3rem;

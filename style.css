@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-@media(max-width: 440px) {
+@media(max-width: 600px) {
     body {
         width: 100vw;
         height: 2000px;
@@ -59,13 +59,13 @@
 
 
     .versiculo {
-        padding-top: 8%;
+        padding-top: 15%;
         font-family: "Dancing Script", cursive;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .fotoCasal {
@@ -83,7 +83,7 @@
 
     .imgSeta {
         position: absolute;
-        top: 105%;
+        top: 110%;
         left: 50%;
         transform: translate(-50%);
         height: 30px;

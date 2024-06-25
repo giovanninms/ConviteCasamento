@@ -51,13 +51,13 @@
 
 
     .versiculo {
-        padding-top: 20%;
+        padding-top: 10%;
         font-family: "Dancing Script", cursive;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .fotoCasal {
@@ -66,12 +66,12 @@
     }
 
     .imgSeta {
-        position: absolute;
-        top: 90%;
+        position: relative;
+        padding-top: 10%;
         left: 50%;
         transform: translate(-50%);
-        height: 3rem;
-        width: 10rem;
+        height: 2rem;
+        width: 6rem;
     }
     .scroll-container{
         padding-top:60px ;

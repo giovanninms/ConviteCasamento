@@ -66,8 +66,8 @@
     }
 
     .imgSeta {
-        position: relative;
-        padding-top: 20%;
+        position: absolute;
+        top: 100%;
         left: 50%;
         transform: translate(-50%);
         height: 3rem;

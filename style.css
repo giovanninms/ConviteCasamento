@@ -77,4 +77,8 @@
     .scroll-container{
         padding-top: 30%;
     }
+    .scroll-page{
+        flex-direction: column;
+        padding-top: 20%;
+    }
 }

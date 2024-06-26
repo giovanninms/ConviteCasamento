@@ -100,7 +100,7 @@
     .tagsConvite {
         display: grid;
         padding-top: 20%;
-        gap: 5%;
+        gap: 10%;
         text-align: center;
         align-items: center;
         justify-items: center;
@@ -108,7 +108,8 @@
         /* grid-template-columns: 1fr 1fr; */
         grid-template-rows: 1fr 1fr 1fr;
     }
-    .tagsConvite a{
+
+    .tagsConvite a {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -116,5 +117,31 @@
         color: black;
         width: 40%;
     }
-    
+
+    .confimarPresenca {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 25%;
+
+    }
+
+    .confimarPresenca a {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 20px;
+        transition: background-color 0.3s ease;
+    }
+    .confimarPresenca:hover {
+        background-color: #f0f0f0;
+      }
+
+
 }

@@ -9,7 +9,7 @@
 @media(max-width: 600px) {
     body {
         width: 100vw;
-        height: 2000px;
+        height: 100vh;
         background-color: #7e2c17;
         background-repeat: no-repeat;
         font-family: "Dancing Script", cursive;

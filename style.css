@@ -135,6 +135,7 @@
         left: 50%;
         transform: translate(-50%);
         padding-top: 25%;
+        padding-bottom: 20%;
     }
 
     .confimarPresenca{

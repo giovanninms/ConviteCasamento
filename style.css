@@ -12,6 +12,12 @@
         height: 2000px;
         background-color: #7e2c17;
         background-repeat: no-repeat;
+        padding-top: 10%;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
     }
 
     .casal {
@@ -51,12 +57,7 @@
 
 
     .versiculo {
-        padding-top: 10%;
-        font-family: "Dancing Script", cursive;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
+        
         font-size: 1.3rem;
     }
 

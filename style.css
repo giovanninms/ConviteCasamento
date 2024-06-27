@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Qwigley&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-}
+
 
 @media(max-width: 600px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
     body {
         width: 100vw;
         height: 100vh;
@@ -62,8 +64,15 @@
         align-self: center;
     }
 
+    .versiculo-num {
+        width: 100%;
+        text-align: end;
+        margin-top: 5%;
+        padding-right: 30px;
+    }
+
     .fotoCasal {
-        width: 100vw;
+        width: 100%;
         height: 100%;
     }
 
@@ -77,23 +86,23 @@
     }
 
     .scroll-container {
-
         padding-top: 30%;
+        font-size: 1.1rem;
+        
     }
 
     .textoConvite {
         display: grid;
         flex-direction: column;
-        text-align: center;
         padding-top: 20%;
-        gap: 15%;
+        /* gap: 15%; */
         justify-items: center;
     }
 
     .textoConvite p {
         align-self: center;
         width: 85%;
-        text-align: center;
+        text-align: start;
         margin: 0;
     }
 
@@ -115,7 +124,7 @@
         flex-direction: column;
         text-decoration: none;
         color: black;
-        width: 40%;
+        width: 50%;
     }
 
     .confimarPresenca {
@@ -128,7 +137,8 @@
         padding-top: 25%;
 
     }
-    .presenca{
+
+    .presenca {
         position: relative;
         display: flex;
         width: 60%;
@@ -138,7 +148,7 @@
         padding-bottom: 20%;
     }
 
-    .confimarPresenca{
+    .confimarPresenca {
         display: inline-block;
         padding: 10px 20px;
         text-align: center;
@@ -148,14 +158,15 @@
         border-radius: 20px;
         transition: background-color 0.3s ease;
     }
+
     .confimarPresenca:hover {
-  background-color: #642312;
-}
+        background-color: #642312;
+    }
 
-.brasao{
-    width: 80%;
-    height: 90%;
+    .brasao {
+        width: 100%;
+        height: 100%;
 
-}
+    }
 
 }

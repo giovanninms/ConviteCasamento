@@ -27,7 +27,7 @@
     }
 
     .fotoCasal {
-        width: 100%;
+        width:auto;
         height: 100vh; /* Ajuste o dimensionamento da imagem conforme necessário */
         display: block;
     }

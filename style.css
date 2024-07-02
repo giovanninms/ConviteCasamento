@@ -2,120 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 
-
 @media(max-width: 600px) {
-
+    /* Reset de margens e paddings */
     * {
         padding: 0;
         margin: 0;
     }
+
     body {
         width: 100vw;
         height: 100vh;
         background-color: #BB5238;
-        background-repeat: no-repeat;
         font-family: "Dancing Script", cursive;
-        font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
     }
 
     .casal {
         position: relative;
-        display: flex;
-        flex-direction: column;
-
     }
 
-    .nomeCasal {
-        position: absolute;
-        font-family: "Miss Fajardose", cursive;
-        font-weight: normal;
-        font-style: normal;
-        font-size: 4rem;
-        z-index: 2;
-        padding-top: 5%;
-        width: 100vw;
-        font-weight: 400;
-        text-align: center;
-
-    }
-
-    .img-container {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .img-container {
-        display: block;
-        width: 100%;
-        height: 100%;
-        mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-        -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-    }
-
-
-    .versiculo {
-        width: 85%;
-        padding-top: 15%;
-        text-align: center;
-        font-size: 1.3rem;
-        align-self: center;
-    }
-
-    .versiculo-num {
-        width: 100%;
-        text-align: end;
-        margin-top: 5%;
-        padding-right: 30px;
+    .scroll-page {
+        position: relative; /* Certifique-se de que as páginas de scroll têm posição relativa */
     }
 
     .fotoCasal {
         width: 100%;
-        height: 100%;
-    }
-
-    .imgSeta {
-        position: relative;
-        padding-top: 15%;
-        left: 50%;
-        transform: translate(-50%);
-        height: 2rem;
-        width: 6rem;
-    }
-
-    .scroll-container {
-        padding-top: 30%;
-        font-size: 1.1rem;
-        
-    }
-
-    .textoConvite {
-        display: grid;
-        flex-direction: column;
-        padding-top: 20%;
-        /* gap: 15%; */
-        justify-items: center;
-    }
-
-    .textoConvite p {
-        align-self: center;
-        width: 85%;
-        text-align: start;
-        margin: 0;
+        height: auto; /* Ajuste o dimensionamento da imagem conforme necessário */
+        display: block;
     }
 
     .tagsConvite {
+        position: absolute;
         display: grid;
-        padding-top: 20%;
-        gap: 10%;
+        width: 70%;
+        top: 30%; /* Ajuste a posição verticalmente conforme necessário */
+        left: 50%; /* Ajuste a posição horizontalmente conforme necessário */
+        transform: translate(-50%, -50%);
         text-align: center;
-        align-items: center;
-        justify-items: center;
-        flex-direction: column;
-        /* grid-template-columns: 1fr 1fr; */
+        z-index: 2; /* Garante que as tags fiquem sobre a imagem */
         grid-template-rows: 1fr 1fr 1fr;
+        gap: 5%;
     }
 
     .tagsConvite a {
@@ -127,46 +54,24 @@
         width: 50%;
     }
 
-    .confimarPresenca {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-top: 25%;
-
-    }
-
     .presenca {
-        position: relative;
-        display: flex;
-        width: 60%;
-        left: 50%;
-        transform: translate(-50%);
-        padding-top: 25%;
-        padding-bottom: 20%;
+        text-align: center;
+        margin-top: 20px; /* Ajuste o espaçamento conforme necessário */
     }
 
     .confimarPresenca {
-        display: inline-block;
         padding: 10px 20px;
-        text-align: center;
         text-decoration: none;
         color: black;
         border: 2px solid black;
         border-radius: 20px;
         transition: background-color 0.3s ease;
+        position: absolute;
+        width: 50%;
+        top: 60%; /* Ajuste a posição verticalmente conforme necessário */
+        left: 35%; /* Ajuste a posição horizontalmente conforme necessário */
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 2; /* Garante que as tags fiquem sobre a imagem */
     }
-
-    .confimarPresenca:hover {
-        background-color: #642312;
-    }
-
-    .brasao {
-        width: 100%;
-        height: 100%;
-
-    }
-
 }

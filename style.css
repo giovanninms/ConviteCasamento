@@ -1,64 +1,77 @@
-/* Estilo base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-body {
-    font-family: "Dancing Script", cursive;
-    background-color: #BB5238;
-}
 
-.casal {
-    position: relative;
-    overflow: hidden; /* Para esconder as partes fora do container */
-}
+@media(max-width: 600px) {
+    /* Reset de margens e paddings */
+    * {
+        padding: 0;
+        margin: 0;
+    }
 
-.scroll-container {
-    display: flex;
-    width: 100vw; /* Utiliza a largura total da tela */
-    transition: transform 0.5s ease; /* Efeito de transição */
-}
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: #BB5238;
+        font-family: "Dancing Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
 
-.scroll-page {
-    flex: 0 0 100vw; /* Cada página ocupa a largura total da tela */
-}
+    .casal {
+        position: relative;
+    }
 
-.fotoCasal {
-    width: 100%;
-    height: 100vh; /* Altura total da tela */
-    object-fit: cover; /* Para manter a proporção da imagem */
-}
+    .scroll-page {
+        position: relative; 
+    }
 
-/* Estilos específicos para telas menores */
-@media (max-width: 600px) {
+    .fotoCasal {
+        width:auto;
+        height: 100vh; 
+        display: block;
+    }
+
     .tagsConvite {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        display: grid;
+        width: 70%;
+        top: 30%; 
+        left: 50%; 
         transform: translate(-50%, -50%);
         text-align: center;
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 2; 
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5%;
+    }
+
+    .tagsConvite a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+        width: 50%;
     }
 
     .presenca {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+        text-align: center;
+        margin-top: 20px; 
     }
 
     .confimarPresenca {
-        display: inline-block;
         padding: 10px 20px;
         text-decoration: none;
         color: black;
         border: 2px solid black;
         border-radius: 20px;
         transition: background-color 0.3s ease;
+        position: absolute;
+        width: 50%;
+        top: 60%; 
+        left: 35%; 
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 2; 
     }
 }

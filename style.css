@@ -23,12 +23,12 @@
     }
 
     .scroll-page {
-        position: relative; /* Certifique-se de que as páginas de scroll têm posição relativa */
+        position: relative; 
     }
 
     .fotoCasal {
         width:auto;
-        height: 100vh; /* Ajuste o dimensionamento da imagem conforme necessário */
+        height: 100vh; 
         display: block;
     }
 
@@ -36,11 +36,11 @@
         position: absolute;
         display: grid;
         width: 70%;
-        top: 30%; /* Ajuste a posição verticalmente conforme necessário */
-        left: 50%; /* Ajuste a posição horizontalmente conforme necessário */
+        top: 30%; 
+        left: 50%; 
         transform: translate(-50%, -50%);
         text-align: center;
-        z-index: 2; /* Garante que as tags fiquem sobre a imagem */
+        z-index: 2; 
         grid-template-rows: 1fr 1fr 1fr;
         gap: 5%;
     }
@@ -56,7 +56,7 @@
 
     .presenca {
         text-align: center;
-        margin-top: 20px; /* Ajuste o espaçamento conforme necessário */
+        margin-top: 20px; 
     }
 
     .confimarPresenca {
@@ -68,10 +68,10 @@
         transition: background-color 0.3s ease;
         position: absolute;
         width: 50%;
-        top: 60%; /* Ajuste a posição verticalmente conforme necessário */
-        left: 35%; /* Ajuste a posição horizontalmente conforme necessário */
+        top: 60%; 
+        left: 35%; 
         transform: translate(-50%, -50%);
         text-align: center;
-        z-index: 2; /* Garante que as tags fiquem sobre a imagem */
+        z-index: 2; 
     }
 }

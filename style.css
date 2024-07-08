@@ -11,8 +11,8 @@
 
     
         body, html {
-            width: 100%;
-            height: 100%;
+            width: 100vw;
+            height: 100vh;
             overflow-x: hidden; /* Para evitar rolagem horizontal */
             background-color: #BB5238;
             font-family: "Dancing Script", cursive;
@@ -25,24 +25,24 @@
         position: relative;
     }
 
-    .scroll-page {
-        position: relative; 
-    }
-
     .fotoCasal {
         width:100vw;
         height: 100vh;
-        /* object-fit: cover; */
+        display: block;
+    }
+    .pagPresente{
+        width: 100vw;
+        height: 100vh;
     }
 
     .tagsConvite {
         position: absolute;
         display: grid;
-        width: 70%;
-        top: 30%; 
+        top: 75%; 
         left: 50%; 
         transform: translate(-50%, -50%);
         text-align: center;
+        align-items: center ;
         z-index: 2; 
         grid-template-rows: 1fr 1fr 1fr;
         gap: 5%;
@@ -54,12 +54,12 @@
         flex-direction: column;
         text-decoration: none;
         color: black;
-        width: 50%;
+        height: 20vh;
+        width: 100vw;
     }
 
     .presenca {
         text-align: center;
-        margin-top: 20px; 
     }
 
     .confimarPresenca {

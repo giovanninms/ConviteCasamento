@@ -38,13 +38,23 @@
 
     .localizacao {
         position: absolute;
-        /* height: 30%;
-        width: 30%; */
-        top:55%; 
+        top:50%; 
         left: 55%; 
         transform: translate(-50%, -50%);
         text-align: center;
         align-items: center ;
+        z-index: 2; 
+    }
+    .tagsConvite {
+        position: absolute;
+        top:65%; 
+        left: 40%;
+        display: grid;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        align-items: center ;
+        grid-template-columns: 1fr 1fr;
+        gap: 20%;
         z-index: 2; 
     }
 
@@ -54,7 +64,8 @@
         flex-direction: column;
         text-decoration: none;
         color: black;
-        height: 20vh;
+        height: 40%;
+        width: 40%;
     }
 
     .presenca {
